@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo2.ico">
+    <link rel="stylesheet"  href="style/styles.css">
+    <title>11</title>
+    
+</head>
+<body>
+    
+    <div class="header">
+       
+        <div class="logo_header">
+            <img id="logo_header_img" src="img/us5.jpg" alt="Logo nois">
+        </div>
+        <div class="nav_header" id="nav_header">
+            
+            <a href="#" id="eu">?</a>
+            <a href="#" id="vou">?</a>
+            <a href="#" id="te_amar">?</a>
+            <a href="#" id="como_um">?</a>
+            <a href="pdf/ticketdirect1726508827.pdf" target="_blank"  id="idiota">?</a>
+        </div>
+            
+    </div>
+    <div class="content" id="content">
+        <div class="slide-content">
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="img/us6.jpg" alt="nois" class="card-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <audio id="musicafundo"  loop>
+            <source src="sound/Taylor Swift - End Game ft. Ed Sheeran, Future (128 kbps).mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <footer id="rodape">
+        <div class="register">
+            <p>&copy 11/?/2023 -> </p> 
+            <img src="img/216250_infinity_icon.ico" alt="infinity">
+        </div>
+
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+    
+    $('#logo_header_img').mouseenter(function(){
+        $(this).fadeOut(400, function(){
+            $(this).attr('src', "img/us4.jpg").fadeIn(400)
+        });
+    });
+
+    $('#logo_header_img').mouseleave(function(){
+        $(this).fadeOut(400, function(){
+            $(this).attr('src', "img/us5.jpg").fadeIn(400);
+        });
+    });
+
+
+
+
+
+    $('#eu').mouseenter(function(){
+        $(this).fadeOut(400, function(){
+
+        $(this).text('eu').fadeIn(400)
+        })
+    })
+    $('#vou').mouseenter(function(){
+        $(this).fadeOut(400, function(){
+        $(this).text('vou').fadeIn(400)
+        })
+    })
+    $('#te_amar').mouseenter(function(){
+        $(this).fadeOut(400, function(){
+        $(this).text('te amar').fadeIn(400)
+        })
+    })
+    $('#como_um').mouseenter(function(){
+        $(this).fadeOut(400, function(){
+        $(this).text('como um').fadeIn(400)
+        })
+    })
+    $('#idiota').mouseenter(function(){
+        $(this).fadeOut(400, function(){
+            $(this).text('idiota').fadeIn(400)
+            $(this).css('font-size', '40px')
+        });
+    })
+</script>
+</body>
+</html>
