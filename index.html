@@ -4,86 +4,189 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo2.ico">
-    <link rel="stylesheet"  href="style/styles.css">
+    <link rel="stylesheet" href="style/styles.css">
     <title>11</title>
-    
 </head>
 <body>
-    
     <div class="header">
-       
         <div class="logo_header">
             <img id="logo_header_img" src="img/us5.jpg" alt="Logo nois">
         </div>
         <div class="nav_header" id="nav_header">
-            
             <a href="#" id="eu">?</a>
             <a href="#" id="vou">?</a>
             <a href="#" id="te_amar">?</a>
             <a href="#" id="como_um">?</a>
-            <a href="pdf/ticketdirect1726508827.pdf" target="_blank"  id="idiota">?</a>
+            <a href="" target="_blank" id="idiota">?</a>
         </div>
-            
     </div>
     <div class="content" id="content">
+        <div class="intro-cards">
+            <div class="intro-card" id="intro1">
+                <h3>sol.</h3>
+                <h6>substantivo masculino</h6>
+                <p>P.met. Aquilo que ilumina, guia; farol.</p>
+                <img src="img/1.jpg" alt="1" id="img1">
+            </div>
+            <div class="intro-card" id="intro2">
+                <h3>vida.</h3>
+                <h6>substantivo feminino</h6>
+                <p>[Figurado] Aquilo que dá vigor ou sentido à existência de alguém</p>
+                <img src="img/2.jpg" alt="2" id="img2">
+            </div>
+            <div class="intro-card" id="intro3">
+                <h3>paixão.</h3>
+                <h6>substantivo feminino</h6>
+                <p>Sentimento intenso que possui a capacidade de <b>alterar</b> o comportamento, o pensamento etc</p>
+                <img src="img/3.jpg" alt="3" id="img3">
+            </div>
+        </div>
         <audio id="musicafundo" autoplay loop>
-            <source src="sound/Taylor Swift - End Game ft. Ed Sheeran, Future (128 kbps).mp3" type="audio/mp3">
+            <source src="sound/Taylor Swift - End Game ft. Ed Sheeran, Future (128 kbps).mp3"  type="audio/mp3">
         </audio>
+        <hr class="separador">
+        <div class="cards-container">
+            <div class="card">
+                <img src="img/us10.jpg" alt="Imagem 1" class="card-image">
+                <div class="card-content"> 
+                    
+                    <h3>Muito obrigado meu amor.</h3>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/us16.jpg" alt="Imagem 2" class="card-image">
+                <div class="card-content">
+                    <h3>Por me encontrar.</h3>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/us15.jpg" alt="Imagem 3" class="card-image">
+                <div class="card-content">
+                    <h3>Desde cedo.</h3>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/us7.jpg" alt="Imagem 4" class="card-image">
+                <div class="card-content">
+                    <h3>Por me amar.</h3>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/us14.jpg" alt="Imagem 5" class="card-image">
+                <div class="card-content">
+                    <h3>Como nunca nignguém amou.</h3>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/us11.jpg" alt="Imagem 6" class="card-image">
+                <div class="card-content">
+                    <h3>E por me reencontrar também.</h3>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/us12.jpg" alt="Imagem 6" class="card-image">
+                <div class="card-content">
+                    <h3>Por acreditar em mim.</h3>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/us13.jpg" alt="Imagem 6" class="card-image">
+                <div class="card-content">
+                    <h3>Me aceitar.</h3>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/us3.jpg" alt="Imagem 6" class="card-image">
+                <div class="card-content">
+                    <h3>Por me querer de novo.</h3>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/us2.jpg" alt="Imagem 6" class="card-image">
+                <div class="card-content">
+                    <h3>Como se nunca tivesse acabado.</h3>
+
+                </div>
+            </div>
+            <div class="card">
+            
+                <img src="img/us.jpg" alt="Imagem 6" class="card-image">
+                <div class="card-content">
+                    <h3>Pra sempre, nós.</h3>
+                </div>
+            </div>
+        </div>
     </div>
     <footer id="rodape">
         <div class="register">
             <p>&copy 11/?/2023 -> </p> 
             <img src="img/216250_infinity_icon.ico" alt="infinity">
         </div>
-
     </footer>
-
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script>
-    
-    $('#logo_header_img').mouseenter(function(){
-        $(this).fadeOut(400, function(){
-            $(this).attr('src', "img/us4.jpg").fadeIn(400)
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $('#logo_header_img').mouseenter(function(){
+            $(this).fadeOut(400, function(){
+                $(this).attr('src', "img/us4.jpg").fadeIn(400)
+            });
         });
-    });
 
-    $('#logo_header_img').mouseleave(function(){
-        $(this).fadeOut(400, function(){
-            $(this).attr('src', "img/us5.jpg").fadeIn(400);
+        $('#logo_header_img').mouseleave(function(){
+            $(this).fadeOut(400, function(){
+                $(this).attr('src', "img/us5.jpg").fadeIn(400);
+            });
         });
-    });
+
+        $('.card').hover(
+            function(){
+                $(this).find('.card-image').css('filter', 'grayscale(0%)'); // Revertendo para cor original
+                $(this).animate({ marginTop: '-=10px' }, 'fast'); 
+                $(this).find('.card-content').css('color', 'black');// Movendo para cima
+                
+            },
+            function(){
+                $(this).find('.card-image').css('filter', 'grayscale(100%)'); // Convertendo para preto e branco novamente
+                $(this).animate({ marginTop: '0px' }, 'fast'); 
+                $(this).find('.card-content').css('color', 'white');// Voltando à posição original
+            }
+        );
+        
 
 
 
-
-
-    $('#eu').mouseenter(function(){
-        $(this).fadeOut(400, function(){
-
-        $(this).text('eu').fadeIn(400)
+        $('#eu').mouseenter(function(){
+            $(this).fadeOut(400, function(){
+                $(this).text('eu').fadeIn(400)
+            })
         })
-    })
-    $('#vou').mouseenter(function(){
-        $(this).fadeOut(400, function(){
-        $(this).text('vou').fadeIn(400)
+        $('#vou').mouseenter(function(){
+            $(this).fadeOut(400, function(){
+                $(this).text('vou').fadeIn(400)
+            })
         })
-    })
-    $('#te_amar').mouseenter(function(){
-        $(this).fadeOut(400, function(){
-        $(this).text('te amar').fadeIn(400)
+        $('#te_amar').mouseenter(function(){
+            $(this).fadeOut(400, function(){
+                $(this).text('te amar').fadeIn(400)
+            })
         })
-    })
-    $('#como_um').mouseenter(function(){
-        $(this).fadeOut(400, function(){
-        $(this).text('como um').fadeIn(400)
+        $('#como_um').mouseenter(function(){
+            $(this).fadeOut(400, function(){
+                $(this).text('como um').fadeIn(400)
+            })
         })
-    })
-    $('#idiota').mouseenter(function(){
-        $(this).fadeOut(400, function(){
-            $(this).text('idiota').fadeIn(400)
-            $(this).css('font-size', '40px')
-        });
-    })
-</script>
+        $('#idiota').mouseenter(function(){
+            $(this).fadeOut(400, function(){
+                $(this).text('idiota').fadeIn(400)
+                $(this).css('font-size', '40px')
+            });
+        })
+    </script>
 </body>
-</html>
